@@ -96,7 +96,14 @@
 </head>
 <body>
     <div class="container-xxl bg-white p-0">
-    
+        <!-- Spinner Start -->
+        <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Carregadno...</span>
+            </div>
+        </div> -->
+        <!-- Spinner End -->
+
 
         <!-- Navbar Start -->
         <div class="container-fluid nav-bar bg-transparent">
@@ -129,7 +136,10 @@
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
                     <h1 class="display-5 animated fadeIn mb-4">Transforming Blueprints into Brilliance: <span class="text-primary"> Architecture Enhanced by AI</span></h1>
-                
+                    <!-- <p class="animated fadeIn mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
+                        sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                    <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Comece Agora</a> -->
+                </div>
                 <div class="col-md-6 animated fadeIn">
                     <div class="owl-carousel header-carousel">
                         <div class="owl-carousel-item">
@@ -168,7 +178,7 @@
                                     // console.log(selectElement);
                                   </script>
                             </div>                          
-    <!-- <button class="btn btn-dark border-0 w-100 py-3" id="submitButton" onclick="getData()">Submit</button> -->
+    <button class="btn btn-dark border-0 w-100 py-3" id="submitButton" onclick="getData()">Submit</button>
 
                         </div>
                     </div>
@@ -179,6 +189,35 @@
 </div>
 
  </div></div></div><div class="imagee" id="img_cont"></div><script>
+//     function submitForm() {
+//     var selectElement = document.getElementById("mySelect");
+//     var selectedValue = selectElement.value;
+
+//     // Create a payload object with the selected value
+//     var payload = {
+//         "num_rooms": selectedValue
+//     };
+
+//     // Convert the payload to JSON
+//     var jsonData = JSON.stringify(payload);
+
+//     // Send the JSON payload to the Flask endpoint
+//     var xhr = new XMLHttpRequest();
+//     xhr.open("POST", "http://127.0.0.1:5000/bedroom", true);
+//     xhr.setRequestHeader("Content-Type", "application/json");
+//     xhr.onreadystatechange = function() {
+//         if (xhr.readyState === XMLHttpRequest.DONE) {
+//             if (xhr.status === 200) {
+//                 // Response received, handle it here if needed
+//                 console.log(xhr.responseText);
+//             } else {
+//                 // Error handling
+//                 console.error('There was a problem with the request.');
+//             }
+//         }
+//     };
+//     xhr.send(jsonData);
+// }
 
  //</script>
 
@@ -228,6 +267,84 @@
             </div>
         </div>
         <!-- Call to Action End -->
+
+
+        <!-- Team Start -->
+        <!-- <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Agentes de Propriedades</h1>
+                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/team-1.jpg" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Nome Completo</h5>
+                                <small>Especialidade</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Nome Completo</h5>
+                                <small>Especialidade</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Nome Completo</h5>
+                                <small>Especialidade</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Nome Completo</h5>
+                                <small>Especialidade</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Team End -->
 
 
         <!-- Testimonial Start -->
