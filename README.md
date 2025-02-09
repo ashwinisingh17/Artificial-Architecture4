@@ -1,6 +1,8 @@
 
 Project link - https://artificial-architecture4.vercel.app/
 
+Website Demo Video - https://www.loom.com/share/05a693cffa12407997e998fee8badb3d?sid=69897de1-2eb0-4607-be8b-d6a78f3b3052
+
 Artificial Architecture Website
 
 Welcome to the Artificial Architecture project repository! This repository hosts the source code for a powerful website designed to revolutionize the process of architectural design. Our platform leverages cutting-edge technology to generate bespoke house blueprints based on user specifications.
